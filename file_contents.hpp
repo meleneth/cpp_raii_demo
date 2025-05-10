@@ -8,6 +8,7 @@ public:
 
     const std::string& filename() const;
     const std::string& contents() const;
+    ~FileContents();
 
 private:
     std::string filename_;
